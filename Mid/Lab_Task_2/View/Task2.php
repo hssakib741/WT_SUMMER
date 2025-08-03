@@ -30,10 +30,7 @@
       font-weight: bold;
       vertical-align: top;
     }
-    input[type="text"],
-    input[type="email"],
-    input[type="password"],
-    input[type="date"],
+#name,#dot,#email,#password
     select,
     textarea {
       width: 240px;
@@ -84,9 +81,9 @@
   <p style="font-weight: bold; font-family: Arial;">Customer Registration Form</p>
   <form>
     <div><label>Full Name:</label>
-    <input type="text" /></div>
+    <input type="text" id="name"/></div>
     <div><label>Date of Birth:</label>
-    <input type="date" /></div>
+    <input type="date" id="dot"/></div>
 
     <div><label>Gender:</label>
       <span class="gender-options">
@@ -120,7 +117,7 @@
     </div>
     <div>
         <label>Email Address:</label>
-        <input type="email"/>
+        <input type="email" id="email"/>
     </div>
     <div>
         <label>Address:</label>
@@ -136,7 +133,7 @@
     </div>
     <div>
         <label>Set Password:</label>
-        <input type="password"/>
+        <input type="password" id="password"/>
     </div>
     <div>
         <label>Upload ID Proof:</label>

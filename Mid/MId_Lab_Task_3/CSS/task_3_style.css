@@ -1,0 +1,68 @@
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: black
+}
+
+.form-title {
+  color: red;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.input
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.donation-options {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  color: red;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
